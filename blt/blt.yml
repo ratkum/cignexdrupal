@@ -1,0 +1,40 @@
+project:
+  machine_name: cignex-drupal
+  prefix: BLT
+  human_name: 'Cignex Drupal BLT Experimental'
+  profile:
+    name: lightning
+  local:
+    protocol: http
+    hostname: 'local.${project.machine_name}.com'
+git:
+  default_branch: develop 
+  remotes:
+   - 'cignexdrupal@svn-6488.devcloud.hosting.acquia.com:cignexdrupal.git'
+deploy:
+  tag_source: true
+drush:
+  aliases:
+    remote: '${project.machine_name}.dev'
+    local: self
+    ci: self
+  default_alias: '${drush.aliases.local}'
+modules:
+  local:
+    enable: [dblog, devel, seckit, views_ui]
+    uninstall: [acquia_connector, shield]
+  ci:
+    enable: {  }
+    uninstall: [acquia_connector, shield]
+  dev:
+    enable: [acquia_connector, shield]
+    uninstall: {  }
+  test:
+    enable: [acquia_connector, shield]
+    uninstall: [devel, views_ui]
+  prod:
+    enable: [acquia_connector, shield]
+    uninstall: [devel, views_ui]
+cm: 
+  strategy: config-split
+  allow-overrides: true
