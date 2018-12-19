@@ -35,6 +35,11 @@ modules:
   prod:
     enable: [acquia_connector, shield]
     uninstall: [devel, views_ui]
+disable-targets:
+  tests:
+    phpcs: { sniff: { all: true, files: true } }
+multisites:
+  - default
 cm: 
   strategy: config-split
   allow-overrides: true
