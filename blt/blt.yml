@@ -37,6 +37,7 @@ modules:
     uninstall: [devel, views_ui]
 disable-targets:
   tests:
+    behat: true
     phpcs: { sniff: { all: true, files: true } }
 multisites:
   - default
