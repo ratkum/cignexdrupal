@@ -3058,17 +3058,17 @@
         },
         {
             "name": "drupal/config_update",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/config_update",
-                "reference": "8.x-1.5"
+                "reference": "8.x-1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/config_update-8.x-1.5.zip",
-                "reference": "8.x-1.5",
-                "shasum": "2f7ae5f90b1c0ab8edf84680d2651e81fab6a126"
+                "url": "https://ftp.drupal.org/files/projects/config_update-8.x-1.6.zip",
+                "reference": "8.x-1.6",
+                "shasum": "04bbd0fc440017fd0129dceae240a8bba409a450"
             },
             "require": {
                 "drupal/core": "*"
@@ -3079,8 +3079,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.5",
-                    "datestamp": "1512587912",
+                    "version": "8.x-1.6",
+                    "datestamp": "1545090480",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5082,17 +5082,17 @@
         },
         {
             "name": "drupal/lightning_media",
-            "version": "3.2.0",
+            "version": "3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/lightning_media",
-                "reference": "8.x-3.2"
+                "reference": "8.x-3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/lightning_media-8.x-3.2.zip",
-                "reference": "8.x-3.2",
-                "shasum": "71ccaca7e477622872ee8e646069f013cfc65b47"
+                "url": "https://ftp.drupal.org/files/projects/lightning_media-8.x-3.3.zip",
+                "reference": "8.x-3.3",
+                "shasum": "3cf245502a1ac601a83d0cf9f4d412ef68f29bdd"
             },
             "require": {
                 "bower-asset/cropper": "^2.3",
@@ -5135,8 +5135,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.2",
-                    "datestamp": "1544729280",
+                    "version": "8.x-3.3",
+                    "datestamp": "1545142381",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5870,17 +5870,17 @@
         },
         {
             "name": "drupal/openapi_ui_swagger",
-            "version": "1.0.0-rc2",
+            "version": "1.0.0-rc3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/openapi_ui_swagger",
-                "reference": "8.x-1.0-rc2"
+                "reference": "8.x-1.0-rc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/openapi_ui_swagger-8.x-1.0-rc2.zip",
-                "reference": "8.x-1.0-rc2",
-                "shasum": "093ea1a6c3269512ba06ff188c7356c1073cf1f6"
+                "url": "https://ftp.drupal.org/files/projects/openapi_ui_swagger-8.x-1.0-rc3.zip",
+                "reference": "8.x-1.0-rc3",
+                "shasum": "734b7d994254801a9c02bc7b4d030d237ec93297"
             },
             "require": {
                 "drupal/core": "~8.0",
@@ -5893,8 +5893,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-rc2",
-                    "datestamp": "1532563381",
+                    "version": "8.x-1.0-rc3",
+                    "datestamp": "1545018184",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -12533,16 +12533,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.35.4",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "7e081e98378a1e78c29cc9eba4aefa5d78a05d2a"
+                "reference": "730c9c4471b5152d23061feb02b03382264c8a15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/7e081e98378a1e78c29cc9eba4aefa5d78a05d2a",
-                "reference": "7e081e98378a1e78c29cc9eba4aefa5d78a05d2a",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/730c9c4471b5152d23061feb02b03382264c8a15",
+                "reference": "730c9c4471b5152d23061feb02b03382264c8a15",
                 "shasum": ""
             },
             "require": {
@@ -12552,12 +12552,12 @@
             "require-dev": {
                 "psr/container": "^1.0",
                 "symfony/debug": "^2.7",
-                "symfony/phpunit-bridge": "^3.3"
+                "symfony/phpunit-bridge": "^3.4.19|^4.1.8"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.35-dev"
+                    "dev-master": "1.36-dev"
                 }
             },
             "autoload": {
@@ -12595,7 +12595,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2018-07-13T07:12:17+00:00"
+            "time": "2018-12-16T10:34:11+00:00"
         },
         {
             "name": "typhonius/acquia-php-sdk-v2",
