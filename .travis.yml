@@ -59,8 +59,8 @@ install:
   - source ${BLT_DIR}/scripts/travis/setup_environment
   - source ${BLT_DIR}/scripts/travis/setup_project
 
-script:
-  - source ${BLT_DIR}/scripts/travis/run_tests
+#script:
+  # source ${BLT_DIR}/scripts/travis/run_tests
 
 # The version below MUST match the php version indicated at the top of this file, otherwise the artifact won't build.
 deploy:
