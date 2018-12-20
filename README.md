@@ -4,6 +4,7 @@ A brief description of My Project.
 
 ## Using This Template
 
+
 Remove this section after initial setup!
 
 Search for and replace the following placeholders within this file:
