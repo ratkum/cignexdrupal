@@ -6,11 +6,11 @@ project:
     name: lightning
   local:
     protocol: http
-    hostname: 'local.cignex-drupal.com'
+    hostname: local.cignex-drupal.com
 git:
-  default_branch: develop 
+  default_branch: develop
   remotes:
-   - 'cignexdrupal@svn-6488.devcloud.hosting.acquia.com:cignexdrupal.git'
+    - 'cignexdrupal@svn-6488.devcloud.hosting.acquia.com:cignexdrupal.git'
 deploy:
   tag_source: true
 drush:
@@ -37,10 +37,10 @@ modules:
     uninstall: [devel, views_ui]
 disable-targets:
   tests:
-    behat: { all:  true }
+    behat: { all: true }
     phpcs: { sniff: { all: true, files: true } }
 multisites:
   - default
-cm: 
+cm:
   strategy: config-split
   allow-overrides: true
