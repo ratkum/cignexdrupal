@@ -65,8 +65,23 @@ BLT provides an automation layer for testing, building, and launching Drupal 8 a
     $ cd docroot
     $ drush uli
     ```
-
 ---
+
+
+#Important URLs 
+
+| Placeholder | URLs |
+| --- | --- |
+| `#ACQUIA_CLOUD_URL` | https://cloud.acquia.com/app/develop/applications/d9bcae8b-fea0-41b8-81f3-5ebb0247164c |
+| `#GIT_PRIMARY_DEV_BRANCH` | `develop` |
+| `#GITHUB_ORG` | The "org" https://github.com/ratkum/cignexdrupal |
+| `#GITHUB_PROJECT` | https://github.com/ratkum/cignexdrupalt |
+| `#LOCAL_DEV_URL` | http://local.cignex-drupal.com/ |
+| `#TRAVIS_URL` | https://travis-ci.com/ratkum/cignexdrupal |
+
+
+
+
 
 # Resources
 
@@ -113,23 +128,4 @@ BLT uses a number of configuration (`.yml` or `.json`) files to define and custo
 * `box/config.yml` (if using Drupal VM)
 * `drush/sites` (contains Drush aliases for this project)
 * `composer.json` (includes required components, including Drupal Modules, for this project)
-
-
-
-## Using This Template
-
-
-Remove this section after initial setup!
-
-Search for and replace the following placeholders within this file:
-
-| Placeholder | Example |
-| --- | --- |
-| `#ACQUIA_CLOUD_URL` | https://cloud.acquia.com/app/develop/applications/d9bcae8b-fea0-41b8-81f3-5ebb0247164c |
-| `#GIT_PRIMARY_DEV_BRANCH` | `develop` |
-| `#GITHUB_ORG` | The "org" https://github.com/ratkum/cignexdrupal |
-| `#GITHUB_PROJECT` | https://github.com/ratkum/cignexdrupalt |
-| `#LOCAL_DEV_URL` | http://local.cignex-drupal.com/ |
-| `#TRAVIS_URL` | https://travis-ci.com/ratkum/cignexdrupal |
-
 
